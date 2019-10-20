@@ -94,7 +94,7 @@ export default {
           routes: [
             {
               path: '/',
-              redirect: '/welcome',
+              redirect: '/test111',
             },
             {
               path: '/welcome',
@@ -161,7 +161,7 @@ export default {
     },
   },
   manifest: {
-    basePath: '/',
+    basePath: '/DragLayout/',
   },
   chainWebpack: webpackPlugin,
   /*
