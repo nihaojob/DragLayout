@@ -37,4 +37,8 @@ screenshot
 .firebase
 .eslintcache
 
-build
+
+#build
+
+gits_root
+
