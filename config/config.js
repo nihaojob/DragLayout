@@ -15,6 +15,7 @@ const plugins = [
       dva: {
         hmr: true,
       },
+      base:'/DragLayout/',
       locale: {
         // default false
         enable: true,
@@ -161,7 +162,7 @@ export default {
     },
   },
   manifest: {
-    basePath: '/DragLayout/',
+    basePath: 'https://nihaojob.github.io/DragLayout/',
   },
   chainWebpack: webpackPlugin,
   /*
