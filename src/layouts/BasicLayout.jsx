@@ -83,12 +83,12 @@ const BasicLayout = props => {
 
   useEffect(() => {
     if (dispatch) {
-      dispatch({
-        type: 'user/fetchCurrent',
-      });
-      dispatch({
-        type: 'settings/getSetting',
-      });
+      // dispatch({
+      //   type: 'user/fetchCurrent',
+      // });
+      // dispatch({
+      //   type: 'settings/getSetting',
+      // });
     }
   }, []);
   /**
@@ -97,10 +97,10 @@ const BasicLayout = props => {
 
   const handleMenuCollapse = payload => {
     if (dispatch) {
-      dispatch({
-        type: 'global/changeLayoutCollapsed',
-        payload,
-      });
+      // dispatch({
+      //   type: 'global/changeLayoutCollapsed',
+      //   payload,
+      // });
     }
   };
 
