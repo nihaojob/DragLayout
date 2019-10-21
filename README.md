@@ -11,8 +11,9 @@ yarn
 项目使用umi脚手架创建的，使用的是Ant Design Pro模板。
 启动的时候可能会包bable的版本错误，搜一下换个版本就好了，环境Start，哈哈。
 
-预览地址：http://localhost:8000/test111
+[演示地址](https://nihaojob.github.io/DragLayout/)
 
+### 实现思路
 
 现在有很多优秀的拖拽布局工具，[表单设计器](http://tools.xiaoyaoji.cn/form/#/)，[layui拖拽布局](http://lowcode.magicalcoder.com/layui), [Vue-Layout](https://jaweii.github.io/Vue-Layout/dist/#/)。
 
@@ -412,7 +413,7 @@ sortableUpdate = evt => {
 
 在`onUpdate`和`onAdd`的函数中，自己封装了一些根据下标操作数组的方法，也是按照函数式的方式，每个函数返回新的结果，写的不是特别好，多多见谅哈，剩下的删除、选中啦，根据自己的需求增加功能就可以了，我把源码放在了github上，有需要的拿去吧，码字码到手酸，吃饭去了😂。
 
-[演示地址](https://nihaojob.github.io/DragLayout/)
+
 
 
 
