@@ -15,7 +15,7 @@ const plugins = [
       dva: {
         hmr: true,
       },
-      base:'/DragLayout/',
+      base: '/DragLayout/',
       locale: {
         // default false
         enable: true,
@@ -95,7 +95,7 @@ export default {
           routes: [
             {
               path: '/',
-              redirect: '/test111',
+              redirect: '/attr',
             },
             {
               path: '/welcome',
@@ -108,6 +108,12 @@ export default {
               name: 'test',
               icon: 'smile',
               component: './test.jsx',
+            },
+            {
+              path: '/attr',
+              name: 'test',
+              icon: 'smile',
+              component: './attr.jsx',
             },
             {
               component: './404',
