@@ -7,8 +7,11 @@ class string extends Component {
   }
 
   render() {
+      const { format, value, onChange } = this.props;
     return (
       <>
+            {format.name}
+            
             <Input value={this.props.value} onChange={this.props.onChange} />
       </>
     );

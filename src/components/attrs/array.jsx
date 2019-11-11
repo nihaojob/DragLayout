@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'antd';
+import { Button, Table } from 'antd';
 class array extends Component {
   constructor(props) {
     super(props);
@@ -7,7 +7,12 @@ class array extends Component {
   }
 
   render() {
-    return <>数组</>;
+    const { format, value, onChange } = this.props;
+    return <>
+      {format.name}
+      <Button type="primary" shape="circle" icon="plus" />
+      <Table dataSource={value} />
+    </>;
   }
 }
 
