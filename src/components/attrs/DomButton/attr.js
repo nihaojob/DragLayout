@@ -13,13 +13,11 @@ export default {
     {
       name: 'label',
       cname: '显示名称',
-      value: '按钮',
       type: 'string',
     },
     {
       name: 'arrayDome',
       cname: '样式',
-      value: '',
       type: 'array',
       children: [
         {
@@ -39,19 +37,16 @@ export default {
     {
       name: 'custormStyle',
       cname: '样式',
-      value: '',
       type: 'object',
       children: [
         {
           name: 'obj1',
           cname: '参数值',
-          value: '',
           type: 'string',
         },
         {
           name: 'obj2',
           cname: '参数值',
-          value: '',
           type: 'string',
         },
       ],

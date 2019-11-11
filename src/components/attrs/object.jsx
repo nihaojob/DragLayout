@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'antd';
-import AttrPanel from './panel';
+import AttrPanel from './oneItem';
 
 class object extends Component {
   constructor(props) {

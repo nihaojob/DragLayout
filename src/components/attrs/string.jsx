@@ -9,7 +9,7 @@ class string extends Component {
   render() {
     return (
       <>
-        <Input />
+            <Input value={this.props.value} onChange={this.props.onChange} />
       </>
     );
   }
