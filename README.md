@@ -13,6 +13,9 @@ yarn
 
 [演示地址](https://nihaojob.github.io/DragLayout/)
 
+### 反思
+这是一个笨拙的数据结构，你会发现如果使用react来对tree进行渲染和开发时，性能将成为一个瓶颈。
+
 ### 实现思路
 
 现在有很多优秀的拖拽布局工具，[表单设计器](http://tools.xiaoyaoji.cn/form/#/)，[layui拖拽布局](http://lowcode.magicalcoder.com/layui), [Vue-Layout](https://jaweii.github.io/Vue-Layout/dist/#/)。
